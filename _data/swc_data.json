@@ -1,11 +1,12 @@
 {
   "dates": {
-    "paperSubmission": "May 1, 2025",
-    "authorsNotification": "May 31, 2025",
-    "demoPosterWIPPaperDue": "June 15, 2025",
-    "cameraReadyDue": "June 30, 2025",
-    "tutorialWorkshopSpecialSessionDue": "April 14, 2025",
-    "tutorialWorkshopSpecialSessionAcceptance": "April 15, 2025",
-    "conferenceDates": "August 18 - 22, 2025"
+    "paperSubmission": "Apr 1, 2026",
+    "authorsNotification": "July 1, 2026",
+    "demoPosterWIPPaperDue": "Unknown",
+    "cameraReadyDue": "July 31, 2025",
+    "tutorialWorkshopSpecialSessionDue": "Unknown",
+    "tutorialWorkshopSpecialSessionAcceptance": "Unknown",
+    "conferenceDates": "September 7 - 11, 2026",
+    "earlyBird": "August 15, 2026"
   }
 }
