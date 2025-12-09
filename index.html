@@ -3,80 +3,38 @@ layout: default
 title: Home
 sponsors:
   - image: /assets/images/ieee mb black png.png
-  - image: /assets/images/cis-logo.png
-  - image: /assets/images/IEEE-CS_LogoTM-orange.png
+  - image: /assets/images_26/sponsor/IEEE_Italy_logo_small.png
+  - image: /assets/images_26/sponsor/cis.png
+  - image: /assets/images_26/sponsor/smc.png
+  - image: /assets/images_26/sponsor/unical-2.png
+  - image: /assets/images_26/sponsor/dimes.svg
 ---
 
-<!-- Hero Section -->
-<section
-  class="jumbotron text-center"
-  style="
-    background-image: url('/assets/images/ahmed-zalabany-yTElJrzPHZo-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 90vh;
-    position: relative;
-    color: white;
-  "
->
-  <div class="hero-section" style="min-height: 90vh !important">
-    <div
-      class="page-section container px-2 pt-5 d-flex flex-column align-items-center gap-3"
-    >
-      <h1 class="display-3 fw-bolder mt-5">
-        IEEE Smart World Congress 2026
-      </h1>
-      <h3 class="w-75 responsive-width fw-medium text-center">
-        Convergence of Minds: Forging Human-AI Partnerships Across Disciplines
-      </h3>
-      <div>
-        <h3>Rende, Calabria, Italy</h3>
-        <h3 class="">{{site.data.swc_data.dates.conferenceDates}}</h3>
-      </div>
-      <div
-        class="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center w-100"
-      >
-        <a href="/registration" class="btn btn-success"
-          >Register for SWC 2026</a
-        >
-        <!-- <a
-          style="
-            background: #2dacee;
-            color: #ffffff;
-            border-radius: 5px;
-            font-size: 16px;
-            text-decoration: none;
-          "
-          href="https://whova.com/portal/e2ofmZ1VEhHRCKBJo9GMWT-Bp-S-G35Si0RidTNO20c=/?source=btn_link"
-          target="_blank"
-          rel="noreferrer"
-          data-reactroot=""
-          class="btn"
-          >Get Whova Now</a
-        > -->
-      </div>
+<section class="hero-section-wrapper text-center">
+  <div class="hero-content container px-2 pt-5 d-flex flex-column align-items-center gap-3">
+    <h1 class="display-3 fw-bolder mt-5">
+      IEEE Smart World Congress 2026
+    </h1>
+    <h3 class="w-75 responsive-width fw-medium text-center opacity-75">
+      Convergence of Minds: Forging Human-AI Partnerships Across Disciplines
+    </h3>
+    <div class="py-3">
+      <h3>Rende, Calabria, Italy</h3>
+      <h3 class="text-info">{{site.data.swc_data.dates.conferenceDates}}</h3>
     </div>
+    <div class="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center w-100">
+      <a href="/registration" class="btn btn-secondary btn-lg px-5 shadow-sm">Register for SWC 2026</a>
+      </div>
   </div>
 </section>
 
-<section
-  class="page-section container-fluid pt-3 px-4 pb-5 mt-2 d-flex flex-column gap-3"
->
-  <!-- <div>
-    <div class="alert alert-primary" role="alert">
-      On behalf of the organizing committee, we sincerely thank all attendees,
-      speakers, and partners for making IEEE Smart World Congress 2025 a
-      success. Your participation, insights, and enthusiasm helped create an
-      engaging and impactful conference. We look forward to seeing you again at
-      next years IEEE SWC!
-    </div>
-  </div> -->
-  <div class="row">
-    <div class="col-sm-8 mb-3 mb-sm-0 d-flex flex-column gap-4">
-      <h2 class="fs-2 mb-2 text-center text-sm-start">
+<section class="page-section container pt-5 px-4 pb-5 mt-2 d-flex flex-column gap-3">
+  <div class="row g-5">
+    <div class="col-lg-8 mb-3 mb-sm-0 d-flex flex-column gap-4">
+      <h2 class="section-title fs-2 text-center text-sm-start">
         Join us at IEEE Smart World Congress 2026
       </h2>
-      <p class="fs-5 text-center text-sm-start">
+      <p class="fs-5 text-center text-sm-start text-muted">
         We are delighted to invite you to the <strong>IEEE Smart World Congress 2026</strong>, a premier event that brings 
         together thought leaders and researchers in smart technologies. The conference will be held in Rende (Calabria), Italy, from
         <strong>{{site.data.swc_data.dates.conferenceDates}}</strong>. IEEE SWC 2026 offers a unique platform for interdisciplinary 
@@ -84,82 +42,91 @@ sponsors:
         keynote addresses, panels, workshops, and many networking opportunities — all set against Rende’s vibrant university and cultural scene.
       </p>
     
-      <p class="fs-5 text-center text-sm-start">
+      <p class="fs-5 text-center text-sm-start text-muted">
         The smart world is reshaping everyday life by combining sensing, communication, computation, and intelligence into our environments. 
         These “smart things” promise huge societal benefits, but they also require fairness, transparency, and ethical stewardship.
         At IEEE SWC we celebrate innovation while encouraging research that is trustworthy and socially responsible. Join researchers, 
         practitioners, and industry leaders at IEEE SWC 2026 to help shape the future of smart technologies.
       </p>
 
-      <p class="fs-5 text-center text-sm-start">
+      <div class="mt-2 text-muted fst-italic">
         Sincerely,<br />
-        The IEEE SWC 2026 Organizing Committee
-      </p>
+        <span class="fw-bold text-dark">The IEEE SWC 2026 Organizing Committee</span>
+      </div>
     </div>
-    <div class="col-sm-4 mb-3 mb-sm-0">
-      <div class="card bg-light-subtle shadow-sm">
+
+    <div class="col-lg-4 mb-3 mb-sm-0">
+      <div class="card dates-card border-0">
         <div class="card-body p-4">
           <h4 class="fs-5 fw-bold mb-4">Key Dates and Deadlines</h4>
-          <div class="d-flex flex-column gap-3">
-            <div class="border-start border-primary border-3 ps-3">
-              <div class="fw-semibold text-dark mb-1" style="font-size: 0.85rem;">
+          <div class="d-flex flex-column">
+            
+            <div class="date-item primary">
+              <div class="fw-semibold text-dark mb-1" style="font-size: 0.9rem;">
                 Full Paper Submission
               </div>
-              <div class="text-muted" style="font-size: 0.8rem;">
+              <div class="text-danger fw-bold" style="font-size: 0.85rem;">
                 {{site.data.swc_data.dates.paperSubmission}}
               </div>
             </div>
-            <div class="border-start border-primary border-3 ps-3">
-              <div class="fw-semibold text-dark mb-1" style="font-size: 0.85rem;">
+
+            <div class="date-item primary">
+              <div class="fw-semibold text-dark mb-1" style="font-size: 0.9rem;">
                 Authors Notification
               </div>
-              <div class="text-muted" style="font-size: 0.8rem;">
+              <div class="text-muted" style="font-size: 0.85rem;">
                 {{site.data.swc_data.dates.authorsNotification}}
               </div>
-              <small class="text-muted d-block mt-1" style="font-size: 0.7rem;">
+              <small class="text-muted d-block mt-1 fst-italic" style="font-size: 0.75rem;">
                 (Delay of ~1 week due to high volume)
               </small>
             </div>
-            <div class="border-start border-primary border-3 ps-3">
-              <div class="fw-semibold text-dark mb-1" style="font-size: 0.85rem;">
+
+            <div class="date-item primary">
+              <div class="fw-semibold text-dark mb-1" style="font-size: 0.9rem;">
                 Demo/Poster/WiP Due
               </div>
-              <div class="text-muted" style="font-size: 0.8rem;">
+              <div class="text-muted" style="font-size: 0.85rem;">
                 {{site.data.swc_data.dates.demoPosterWIPPaperDue}}
               </div>
             </div>
-            <div class="border-start border-primary border-3 ps-3">
-              <div class="fw-semibold text-dark mb-1" style="font-size: 0.85rem;">
+
+            <div class="date-item primary">
+              <div class="fw-semibold text-dark mb-1" style="font-size: 0.9rem;">
                 Camera-ready Submission
               </div>
-              <div class="text-muted" style="font-size: 0.8rem;">
+              <div class="text-muted" style="font-size: 0.85rem;">
                 {{site.data.swc_data.dates.cameraReadyDue}}
               </div>
             </div>
-            <div class="border-start border-primary border-3 ps-3">
-              <div class="fw-semibold text-dark mb-1" style="font-size: 0.85rem;">
+
+            <div class="date-item primary">
+              <div class="fw-semibold text-dark mb-1" style="font-size: 0.9rem;">
                 Tutorial/WS/SS Proposal
               </div>
-              <div class="text-muted" style="font-size: 0.8rem;">
+              <div class="text-muted" style="font-size: 0.85rem;">
                 {{site.data.swc_data.dates.tutorialWorkshopSpecialSessionDue}}
               </div>
             </div>
-            <div class="border-start border-primary border-3 ps-3">
-              <div class="fw-semibold text-dark mb-1" style="font-size: 0.85rem;">
+
+            <div class="date-item primary">
+              <div class="fw-semibold text-dark mb-1" style="font-size: 0.9rem;">
                 Tutorial/WS/SS Acceptance
               </div>
-              <div class="text-muted" style="font-size: 0.8rem;">
+              <div class="text-muted" style="font-size: 0.85rem;">
                 {{site.data.swc_data.dates.tutorialWorkshopSpecialSessionAcceptance}}
               </div>
             </div>
-            <div class="border-start border-success border-3 ps-3">
-              <div class="fw-semibold text-dark mb-1" style="font-size: 0.85rem;">
+
+            <div class="date-item active">
+              <div class="fw-semibold text-dark mb-1" style="font-size: 0.9rem;">
                 Conference Dates
               </div>
-              <div class="text-muted" style="font-size: 0.8rem;">
+              <div class="text-success fw-bold" style="font-size: 0.85rem;">
                 {{site.data.swc_data.dates.conferenceDates}}
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -167,658 +134,293 @@ sponsors:
   </div>
 </section>
 
-<!-- <section class="container-fluid d-flex flex-column px-4 gap-3 pb-5">
-  <div class="page-section w-100 d-flex flex-column gap-4">
-    <hr />
-    {% include whova-lg-row.html %}
-  </div>
-</section> -->
-
-<section class="container-fluid d-flex flex-column gap-4 bg-light">
+<section class="container-fluid d-flex flex-column gap-4 bg-light py-5">
   {% include colocated-conferences.html %}
 </section>
 
-<!-- <section class="container-fluid d-flex flex-column gap-4 pt-5">
-  <div class="page-section w-100 px-3 pb-5">
-    <h2 class="text-center text-sm-start fs-2">
-      Join us at Industry Day and Explore how Innovators are Shaping the Future
-    </h2>
-    <div class="row mb-5 pt-5 g-4">
-      <div
-        class="col-sm-6 d-flex flex-column gap-3 justify-content-around py-2"
-      >
-        <p class="text-center text-sm-start fs-5">
-          Join us at the 2025 IEEE Smart World Congress Industry Day, a dynamic
-          gathering of global thought leaders, pioneering innovators, and
-          economic development experts driving the next wave of smart
-          technologies. Discover cutting-edge solutions, forge strategic
-          partnerships, and explore how industry and research are shaping the
-          intelligent, interconnected world of tomorrow.
+<!-- <section class="container py-5">
+  <div class="text-center mb-5">
+    <h2 class="section-title fs-1">Keynote Speakers</h2>
+    <p class="text-muted w-75 mx-auto">Attend presentations by world-renowned researchers and industry professionals shaping the future of Smart Worlds.</p>
+  </div>
+  
+  <div class="row g-4">
+    <div class="col-lg-4 col-md-6">
+      <div class="custom-card h-100 p-4 text-center">
+        <img src="/assets/images/metaverse/g.jpg" alt="Dr. Giancarlo Fortino" class="circle-img mb-4" />
+        <h5 class="fw-bold">Dr. Giancarlo Fortino</h5>
+        <p class="text-muted small mb-3">The University of Calabria, Italy</p>
+        <h6 class="fw-bold text-primary mb-3">Generative Digital Twins in IoT</h6>
+        <p class="small text-secondary mb-4">
+          Highlighting how Generative AI enhances predictive, adaptive, and explanatory capabilities for smart city applications.
         </p>
-        <div
-          class="d-flex flex-row justify-content-center justify-content-sm-start"
-        >
-          <a href="/program/industry-day/" class="btn btn-primary"
-            >Learn More About Industry Day</a
-          >
+        <div class="mt-auto">
+          <a href="keynotes/giancarlo-fortino/" class="btn btn-outline-primary rounded-pill w-100">Read Abstract</a>
         </div>
       </div>
-      <div
-        class="col-sm-6 py-2 d-flex justify-content-center align-items-center"
-        style="overflow: hidden"
-      >
-        <img
-          src="/assets/images/xr-expo-ipDhOQ5gtEk-unsplash.jpg"
-          class="w-100 h-100 object-fit-cover"
-        />
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="custom-card h-100 p-4 text-center">
+        <img src="/assets/images/Dr_Runhe_Huang.png" alt="Dr. Runhe Huang" class="circle-img mb-4" />
+        <h5 class="fw-bold">Dr. Runhe Huang</h5>
+        <p class="text-muted small mb-3">Hosei University, Japan</p>
+        <h6 class="fw-bold text-primary mb-3">Intelligent Edge Sensing</h6>
+        <p class="small text-secondary mb-4">
+          Examining how distributed cognition enables real-time, privacy-aware, and resilient smart systems.
+        </p>
+        <div class="mt-auto">
+          <a href="keynotes/runhe-huang/" class="btn btn-outline-primary rounded-pill w-100">Read Abstract</a>
+        </div>
       </div>
     </div>
-  </div>
+
+    <div class="col-lg-4 col-md-6">
+      <div class="custom-card h-100 p-4 text-center">
+        <img src="/assets/images/Chunsheng Yang.jpg" alt="Dr. Chunsheng Yang" class="circle-img mb-4" />
+        <h5 class="fw-bold">Dr. Chunsheng Yang</h5>
+        <p class="text-muted small mb-3">Fellow of the Canadian Academy of Engineering</p>
+        <h6 class="fw-bold text-primary mb-3">LLM & The Third AI Wave</h6>
+        <p class="small text-secondary mb-4">
+           Why diverse, reliable approaches are essential for the next wave of impactful, real-world AI solutions.
+        </p>
+        <div class="mt-auto">
+          <a href="keynotes/chunsheng-yang/" class="btn btn-outline-primary rounded-pill w-100">Read Abstract</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
 </section> -->
 
-<section class="container-fluid d-flex flex-column gap-4 bg-light">
-  <div class="page-section w-100 px-3 py-5 d-flex flex-column gap-4">
-    <h2 class="fs-2 text-center">
-      Attend Keynote Presentations by World-Renowned Researchers and Industry
-      Professionals
-    </h2>
-    <div class="row g-4">
-      <div class="col-md-4 mb-3 mb-sm-0">
-        <div class="card bg-light-subtle text-center h-100">
-          <div
-            class="card-body d-flex flex-column justify-content-between align-items-center gap-2"
-          >
-            <h4 class="fs-4">
-              From Digital Twins to Generative Digital Twins: Towards a Novel
-              Approach in the IoT Edge-Cloud Continuum
-            </h4>
-            <p>
-              Explore the emerging concept of Generative Digital Twins (GDTs),
-              highlighting how Generative AI enhances their predictive,
-              adaptive, and explanatory capabilities for smart city and IoT
-              applications.
-            </p>
-            <div class="">
-              <img
-                src="/assets/images/metaverse/g.jpg"
-                alt="Dr. Giancarlo Fortino"
-                class="circle-img mb-3"
-              />
-              <h5>Presented by Dr. Giancarlo Fortino</h5>
-              <h6><i>The University of Calabria, Italy</i></h6>
-            </div>
-
-            <a href="keynotes/giancarlo-fortino/" class="btn btn-primary w-100"
-              >Learn More</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 mb-sm-0 text-center">
-        <div class="card bg-light-subtle h-100">
-          <div
-            class="card-body d-flex flex-column justify-content-between align-items-center gap-2"
-          >
-            <h4 class="fs-4">
-              Intelligent Edge Sensing and Distributed Cognition Are
-              Transforming the Future of Smart World
-            </h4>
-            <p>
-              Examine how intelligent edge sensing and distributed cognition are
-              enabling real-time, privacy-aware, and resilient smart systems
-              across domains like transportation, healthcare, and mobile
-              crowdsensing.
-            </p>
-            <div class="">
-              <img
-                src="/assets/images/Dr_Runhe_Huang.png"
-                alt="Dr. Runhe Huang"
-                class="circle-img mb-3"
-              />
-              <h5>Presented by Dr. Runhe Huang</h5>
-              <h6><i>Hosei University, Japan</i></h6>
-            </div>
-
-            <a href="keynotes/runhe-huang/" class="btn btn-primary w-100"
-              >Learn More</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 mb-sm-0">
-        <div class="card bg-light-subtle h-100">
-          <div
-            class="card-body d-flex flex-column justify-content-between align-items-center gap-2 text-center"
-          >
-            <h4 class="fs-4">LLM (LSM) Is Not Equal to the Third AI Wave</h4>
-            <p>
-              Explore how the evolution of AI from its historical cycles to
-              today's LLMs reveals both breakthroughs and barriers, and why
-              diverse, reliable approaches are essential for the next wave of
-              impactful, real-world AI solutions.
-            </p>
-            <div class="">
-              <img
-                src="/assets/images/Chunsheng Yang.jpg"
-                alt="Dr. Chunsheng Yang"
-                class="circle-img mb-3"
-              />
-              <h5>Presented by Dr. Chunsheng Yang</h5>
-              <h6>
-                <i>Fellow of the Canadian Academy of Engineering (FCAE)</i>
-              </h6>
-            </div>
-
-            <a href="keynotes/chunsheng-yang/" class="btn btn-primary w-100"
-              >Learn More</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 mb-3 mb-sm-0">
-        <div class="card bg-light-subtle h-100 text-center">
-          <div
-            class="card-body d-flex flex-column justify-content-between align-items-center gap-2"
-          >
-            <h4 class="fs-4">
-              Women Leading the Smart World: Equity, Innovation, and the Power
-              of Diverse Voices
-            </h4>
-            <p>
-              Discover how advancing technology and AI can address urgent global
-              challenges, and why inclusive leadership, diverse teams, and
-              creative approaches are essential for developing ethical,
-              impactful solutions for a smarter, more sustainable future.
-            </p>
-            <div class="">
-              <img
-                src="/assets/images/Shauna Zenteno.jpg"
-                alt="Dr. Shauna Zenteno"
-                class="circle-img mb-3"
-              />
-              <h5>Presented by Dr. Shauna Zenteno</h5>
-              <h6>
-                <i
-                  >Dean of the Faculty of Science and Technology, Athabasca
-                  University</i
-                >
-              </h6>
-            </div>
-
-            <a href="keynotes/shauna-zenteno/" class="btn btn-primary w-100"
-              >Learn More</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 mb-sm-0">
-        <div class="card bg-light-subtle h-100">
-          <div
-            class="card-body d-flex flex-column justify-content-between align-items-center gap-2 text-center"
-          >
-            <h4 class="fs-4">Industry Day Keynote: Jan Bradley</h4>
-            <p>
-              Explore how the City of Calgary is transforming municipal services
-              through AI, IoT, RPA, and digital infrastructure, showcasing its
-              strategic, award-winning approach to building a smarter, more
-              equitable city.
-            </p>
-            <div class="">
-              <img
-                src="/assets/images/Bradley, Jan-3604.jpg"
-                alt="Jan Bradley"
-                class="circle-img mb-3"
-              />
-              <h5>Presented by Jan Bradley</h5>
-              <h6>
-                <i>Director and CITO, The City of Calgary</i>
-              </h6>
-            </div>
-
-            <a
-              href="program/industry-day/#jan-bradley-keynote"
-              class="btn btn-primary w-100"
-              >Learn More</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3 mb-sm-0">
-        <div class="card bg-light-subtle h-100">
-          <div
-            class="card-body d-flex flex-column justify-content-between align-items-center gap-2 text-center"
-          >
-            <h4 class="fs-4">Industry Day Keynote: Martin Dinel</h4>
-            <p>
-              Gain insight into Alberta's evolving cybersecurity landscape, from
-              rising threats and key adversaries to the CyberAlberta program's
-              strategic initiatives, as Martin outlines the province's vision to
-              become a global leader in cyber resilience and talent development.
-            </p>
-            <div>
-              <img
-                src="/assets/images/Headshot - Martin Dinel.jpg"
-                alt="Martin Dinel"
-                class="circle-img mb-3"
-              />
-              <h5>Presented by Martin Dinel</h5>
-              <h6>
-                <i
-                  >Assistant Deputy Minister & CISO, Cybersecurity Division,
-                  Government of Alberta</i
-                >
-              </h6>
-            </div>
-
-            <a
-              href="program/industry-day/#martin-dinel-keynote"
-              class="btn btn-primary w-100"
-              >Learn More</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid d-flex flex-column gap-4">
-  <div
-    class="page-section container-fluid px-3 pt-5 pb-5 mt-2 d-flex flex-column gap-4"
-  >
+<section class="container-fluid d-flex flex-column gap-4 bg-white">
+  <div class="page-section container px-3 pt-5 pb-5 mt-2 d-flex flex-column gap-4">
     <div class="row text-center">
-      <div class="col-12"><h2 class="fs-2 mb-2">Organizing Committee</h2></div>
+      <div class="col-12"><h2 class="section-title fs-2 mb-2">Organizing Committee</h2></div>
     </div>
-    <div class="row text-center justify-content-center g-4">
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/HenryLeung.jpg"
-          alt="Dr. Henry Leung"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Henry Leung</h5>
-        <h6><i>The University of Calgary, Canada</i></h6>
-        <p>Co General Chair</p>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/Oscar_Lin.jpg"
-          alt="Dr. Oscar Lin"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Oscar Lin</h5>
-        <h6><i>Athabasca University, Canada</i></h6>
-        <p>Co-General Chair</p>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/nan.jpg"
-          alt="Dr. Nan Xie"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Nan Xie</h5>
-        <h6><i>The City of Calgary, Canada</i></h6>
-        <p>Executive General Chair</p>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/Reza_Malekian.jpg"
-          alt="Dr. Oscar Lin"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Reza Malekian</h5>
-        <h6><i>Malmö University, Sweden</i></h6>
-        <p>Co-Program Chair</p>
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/xiaokang.png"
-          alt="Dr. Oscar Lin"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Xiaokang Wang</h5>
-        <h6><i>Hainan University, China</i></h6>
-        <p>Co-Program Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/singh.jpg"
-          alt="Dr. Oscar Lin"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Dhananjay Singh</h5>
-        <h6><i>Penn State University, USA</i></h6>
-        <p>Co-Program Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/man.jpeg"
-          alt="Dr. Man Lin"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Man Lin</h5>
-        <h6><i>St. Francis Xavier University, Canada</i></h6>
-        <p>Panel Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/lisa.jpg"
-          alt="Dr. Lisa Carter"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Lisa Carter</h5>
-        <h6><i>Athabasca University, Canada</i></h6>
-        <p>Chair of Panel in Women in the Smart World</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/steve-drew-small.jpg"
-          alt="Dr. Steve Drew"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Steve Drew</h5>
-        <h6><i>The University of Calgary, Canada</i></h6>
-        <p>Co-Financial Chair</p>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/hongxin.JPG"
-          alt="Dr. Steve Drew"
-          class="circle-img mb-3"
-        />
-        <h5>Hongxin Yan</h5>
-        <h6><i>Athabasca University, Canada</i></h6>
-        <p>Co-Financial Chair</p>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/Xueqin Liang.JPG"
-          alt="Dr. Oscar Lin"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Xueqin Liang</h5>
-        <h6><i>Xidian University, China</i></h6>
-        <p>Publication Chair</p>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/carson.png"
-          alt="Dr. Carson Leung"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Carson Leung</h5>
-        <h6><i>University of Manitoba, Canada</i></h6>
-        <p>Publication Chair</p>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/x-feng.jpg"
-          alt="Dr. Carson Leung"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Xiaohua Feng</h5>
-        <h6><i>University of Bedfordshire, UK</i></h6>
-        <p>Diversity and Inclusion Chair</p>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/saher.jpg"
-          alt="Dr. "
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Saher Javaid</h5>
-        <h6>
-          <i>Japan Advanced Institute of Science and Technology, Japan</i>
-        </h6>
-        <p>Women in Engineering Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/ye.jpg"
-          alt="Dr. John Ye"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Qiang Ye</h5>
-        <h6><i>The University of Calgary, Canada</i></h6>
-        <p>Special Session Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/chatura.jpg"
-          alt="Dr. Chatura Seneviratne"
-          class="circle-img mb-3"
-        />
-
-        <h5>Dr. Chatura Seneviratne</h5>
-        <h6><i>University of Ruhuna, Sri Lanka</i></h6>
-        <p>Co-Special Session Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/aris.jpg"
-          alt="Dr. Aris"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Aris Leivadeas</h5>
-        <h6><i>TÉcole de technologie supérieure, Canada</i></h6>
-        <p>Publicity Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/ross.jpg"
-          alt="Dr. Rossitza"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Rossitza S. Marinova</h5>
-        <h6><i>Concordia University of Edmonton, Canada</i></h6>
-        <p>Local Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/yuemin.jpg"
-          alt="Dr.  "
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Yuemin Ding</h5>
-        <h6><i>University of Navarra, Spain</i></h6>
-        <p>Track Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/ashiq.jpg"
-          alt="Dr. Aris"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. C. Ashiq Rahman</h5>
-        <h6><i>City of Calgary, Canada</i></h6>
-        <p>Co Industry Liaison Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/hong.jpg"
-          alt="DR Hong Lin"
-          class="circle-img mb-3"
-        />
-
-        <h5>Dr Hong Lin</h5>
-        <h6><i>University of Houston-downtwon , USA</i></h6>
-        <p>Tutorial Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img src="/assets/images/ali.jpg" alt="DR " class="circle-img mb-3" />
-        <h5>Dr. Ali Dewan</h5>
-        <h6><i>Athabasca University, Canada</i></h6>
-        <p>Co Industry Liaison Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/raymond.png"
-          alt="Raymond Morland"
-          class="circle-img mb-3"
-        />
-        <h5>Raymond Morland</h5>
-        <h6><i>Athabasca University, Canada</i></h6>
-        <p>Web Chair</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/abbas.jpg"
-          alt="abbas"
-          class="circle-img mb-3"
-        />
-        <h5>Dr Abbas Mahbod</h5>
-        <h6><i>University of Calgary, Canada</i></h6>
-        <p>Local Chair</p>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/guojun.jpg"
-          alt="abbas"
-          class="circle-img mb-3"
-        />
-        <h5>Guojun Tang</h5>
-        <h6><i>University of Calgary, Canada</i></h6>
-        <p>Local Chair</p>
-      </div>
-    </div>
-    <div class="row text-center justify-content-center g-4 mt-4">
-      <div class="row text-center">
+    <div class="container">
+      <div class="row">
         <div class="col-12">
-          <h2 class="fs-2 mb-2">Steering Committee Chairs</h2>
+          <h3 class="text-center fw-bold text-muted mt-4 mb-4">General Chairs</h3>
+        </div>
+        <div class="col-12">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/giancarlo_fortino.png" alt="Giancarlo Fortino" class="circle-img mb-3" />
+              <h5>Giancarlo Fortino</h5>
+              <h6 class="text-muted"><i>University of Calabria, Italy</i></h6>
+              <p class="text-primary fw-semibold">Executive General Chair</p>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/Enrique-Herrera-Viedma.png" alt="Enrique Herrera-Viedma" class="circle-img mb-3" />
+              <h5>Enrique Herrera-Viedma</h5>
+              <h6 class="text-muted"><i>University of Granada, Spain</i></h6>
+              <p class="text-primary fw-semibold">General Chair</p>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/zhou.png" alt="Mengchu Zhou" class="circle-img mb-3" />
+              <h5>Mengchu Zhou</h5>
+              <h6 class="text-muted"><i>New Jersey Institute of Technology, USA</i></h6>
+              <p class="text-primary fw-semibold">General Chair</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/metaverse/ma.jpg"
-          alt="Dr. Ma"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Jianhua Ma</h5>
-        <h6><i>Hosei University, Japan</i></h6>
-        <p>Steering Committee Chair</p>
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center fw-bold text-muted mt-5 mb-4">Technical Program Chairs</h3>
+        </div>
+        <div class="col-12">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/flavia_delegato.png" alt="Flavia Delicato" class="circle-img mb-3" />
+              <h5>Flavia Delicato</h5>
+              <h6 class="text-muted"><i>Fluminense Federal University, Brazil</i></h6>
+              <p class="text-primary fw-semibold">Technical Program Chair</p>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/daoyi_dong.png" alt="Daoyi Dong" class="circle-img mb-3" />
+              <h5>Daoyi Dong</h5>
+              <h6 class="text-muted"><i>Australian National University, Australia</i></h6>
+              <p class="text-primary fw-semibold">Technical Program Chair</p>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/valeria_loscrì.png" alt="Valeria Loscrì" class="circle-img mb-3" />
+              <h5>Valeria Loscrì</h5>
+              <h6 class="text-muted"><i>INRIA, France</i></h6>
+              <p class="text-primary fw-semibold">Technical Program Chair</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-4 col-sm-6">
-        <img
-          src="/assets/images/metaverse/laurence.jpeg"
-          alt="Dr. Yang"
-          class="circle-img mb-3"
-        />
-        <h5>Dr. Laurence Yang</h5>
-        <h6><i>St. Francis Xavier University, Canada</i></h6>
-        <p>Steering Committee Chair</p>
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center fw-bold text-muted mt-5 mb-4">Workshop & Special Sessions</h3>
+        </div>
+        <div class="col-12">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/pietro_manzoni.png" alt="Pietro Manzoni" class="circle-img mb-3" />
+              <h5>Pietro Manzoni</h5>
+              <h6 class="text-muted"><i>Polytechnic University of Valencia, Spain</i></h6>
+              <p class="text-primary fw-semibold">Workshop/Special Sessions Chair</p>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/maria_ganzha.png" alt="Maria Ganzha" class="circle-img mb-3" />
+              <h5>Maria Ganzha</h5>
+              <h6 class="text-muted"><i>Warsaw University of Technology, Poland</i></h6>
+              <p class="text-primary fw-semibold">Workshop/Special Sessions Chair</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center fw-bold text-muted mt-5 mb-4">Publicity</h3>
+        </div>
+        <div class="col-12">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/min_chen.png" alt="Min Chen" class="circle-img mb-3" />
+              <h5>Min Chen</h5>
+              <h6 class="text-muted"><i>South China University of Technology, China</i></h6>
+              <p class="text-primary fw-semibold">Publicity Chair</p>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/Oscar_Lin.png" alt="Oscar Lin" class="circle-img mb-3" />
+              <h5>Oscar Lin</h5>
+              <h6 class="text-muted"><i>Athabasca University, Canada</i></h6>
+              <p class="text-primary fw-semibold">Publicity Chair</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center fw-bold text-muted mt-5 mb-4">Industry & Sponsorship</h3>
+        </div>
+        <div class="col-12">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/adam_drobot.png" alt="Adam Drobot" class="circle-img mb-3" />
+              <h5>Adam Drobot</h5>
+              <h6 class="text-muted"><i>OpenTechWorks, Inc., USA</i></h6>
+              <p class="text-primary fw-semibold">Industry & Sponsorship Chair</p>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/pasquale_mazzei.png" alt="Pasquale Mazzei" class="circle-img mb-3" />
+              <h5>Pasquale Mazzei</h5>
+              <h6 class="text-muted"><i>Neosperience, Italy</i></h6>
+              <p class="text-primary fw-semibold">Industry & Sponsorship Chair</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center fw-bold text-muted mt-5 mb-4">Administration</h3>
+        </div>
+        <div class="col-12">
+          <div class="row justify-content-center g-4">
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/antonio_guerrieri.png" alt="Antonio Guerrieri" class="circle-img mb-3" />
+              <h5>Antonio Guerrieri</h5>
+              <h6 class="text-muted"><i>ICAR-CNR, Italy</i></h6>
+              <p class="text-primary fw-semibold">Finance Chair</p>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/raffaele_gravina.png" alt="Raffaele Gravina" class="circle-img mb-3" />
+              <h5>Raffaele Gravina</h5>
+              <h6 class="text-muted"><i>University of Calabria, Italy</i></h6>
+              <p class="text-primary fw-semibold">Publication Chair</p>
+            </div>
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="/assets/images_26/people/vincenzo_barbuto.png" alt="Vincenzo Barbuto" class="circle-img mb-3" />
+              <h5>Vincenzo Barbuto</h5>
+              <h6 class="text-muted"><i>University of Calabria, Italy</i></h6>
+              <p class="text-primary fw-semibold">Web Chair</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="container-fluid d-flex flex-column gap-4 bg-light">
-  <div class="page-section w-100 px-3 py-5 d-flex flex-column gap-4">
+<section class="container-fluid d-flex flex-column gap-4 bg-light py-5">
+  <div class="page-section container px-3 d-flex flex-column gap-4">
     <div class="row">
       <div class="col-12 mb-3 mb-sm-0 d-flex flex-column gap-4 text-center">
-        <h2 class="fs-2 text-center">Topics Covered</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="row list-unstyled mb-0">
-              <li class="fs-5">Smart Industry and Manufacture</li>
-              <li class="fs-5">Smart Home and Furniture</li>
-              <li class="fs-5">Smart Agriculture and Aquaculture</li>
-              <li class="fs-5">Smart Appliances and Goods</li>
-              <li class="fs-5">Smart Materials and Fabric</li>
-              <li class="fs-5">Smart Wearables and Implants</li>
-              <li class="fs-5">Smart Environment and Ecosystems</li>
-              <li class="fs-5">Smart Medicine and Healthcare</li>
-              <li class="fs-5">Smart Earth/Space System</li>
-              <li class="fs-5">Smart Elderly/Kiddy Care</li>
-              <li class="fs-5">Smart Grid and Energy</li>
-              <li class="fs-5">Smart Foods and Living</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul class="row list-unstyled mb-0">
-              <li class="fs-5">Smart Logistics and Retail</li>
-              <li class="fs-5">Smart Learning and Education</li>
-              <li class="fs-5">Smart Building and Structure</li>
-              <li class="fs-5">Smart Disaster Monitoring/Management</li>
-              <li class="fs-5">Smart Roads and Transportation</li>
-              <li class="fs-5">Smart Internet of Things</li>
-              <li class="fs-5">Smart Vehicles and Control</li>
-              <li class="fs-5">Smart Sensing, System and Service</li>
-              <li class="fs-5">Smart Machines and Robots</li>
-              <li class="fs-5">Smart Computing and Communication</li>
-              <li class="fs-5">Smart Cybersecurity and Privacy</li>
-              <li class="fs-5">Smart Big Data and Knowledge</li>
-            </ul>
-          </div>
+        <div class="mb-3">
+          <h2 class="section-title fs-2 text-center">Topics Covered</h2>
+          <p class="fs-6 text-muted mx-auto" style="max-width: 600px;">
+            Explore cutting-edge topics shaping the future of smart world technologies
+          </p>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="container-fluid d-flex flex-column gap-4">
-  <div class="page-section w-100 px-3 py-5 d-flex flex-column gap-4">
-    <h2 class="fs-2 text-center">Previous IEEE Smart World Congress</h2>
-    <div class="row pb-3">
-      <div class="col-sm-4 mb-3 mb-sm-0">
-        <div class="card bg-light-subtle h-100">
-          <div class="card-body d-flex flex-column justify-content-between">
-            <h5 class="fs-6 text-center">2025 IEEE SWC</h5>
-            <h3 class="text-center">Calgary</h3>
-            <p class="card-text text-center">August 18 - 22, 2025</p>
-            <a
-              href="https://ieee-swc-2025.github.io/"
-              class="btn btn-primary w-100"
-              >View</a
-            >
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">Smart Wearables</span>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle h-100">
-          <div
-            class="card-body d-flex flex-column justify-content-between align-content-center"
-          >
-            <h5 class="fs-6 text-center">2024 IEEE SWC</h5>
-            <h3 class="text-center">Fiji</h3>
-            <p class="card-text text-center">December 2 - 7, 2024</p>
-            <a
-              href="https://www.ieee-smart-world.org/2024/"
-              class="btn btn-primary w-100"
-              >View</a
-            >
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">Sustainable and Green AI</span>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4 mb-3 mb-sm-0">
-        <div class="card bg-light-subtle h-100">
-          <div class="card-body d-flex flex-column justify-content-between">
-            <h5 class="fs-6 text-center">2023 IEEE SWC</h5>
-            <h3 class="text-center">Portsmouth</h3>
-            <p class="card-text text-center">August 28 - 31, 2023</p>
-            <a
-              href="https://ieee-smart-world-congress.org/"
-              class="btn btn-primary w-100"
-              >View</a
-            >
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">Digital Twin and IoT</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">Edge Intelligence</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">Privacy Computing and Data Security</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">Cognitive Environments and Metaverse</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">AI and Machine Learning</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">Gen AI-driven Educational Systems</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">Ubiquitous Intelligence and Computing</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark">Smart Networks</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="topic-card h-100 p-4 shadow-sm d-flex flex-column align-items-center justify-content-center text-center">
+              <span class="fw-bold fs-5 text-dark mb-2">Smart Applications</span>
+              <small class="text-muted" style="font-size: 0.85rem; line-height: 1.4;">
+                Smart Health, Smart Vehicles, Smart Manufacturing, etc.
+              </small>
+            </div>
           </div>
         </div>
       </div>
@@ -826,68 +428,57 @@ sponsors:
   </div>
 </section>
 
-<section class="container-fluid d-flex flex-column gap-4 bg-light">
-  <div
-    class="page-section w-100 px-3 py-5 d-flex flex-column justify-content-start gap-5"
-  >
-    <h2 class="fs-2 text-center">Join us and Connect at a World Class Venue</h2>
-    <div class="row g-3">
-      <div
-        class="col-sm-6 d-flex flex-column gap-3 justify-content-center py-2 text-center text-sm-start"
-      >
-        <h3 class="">Calgary Telus Convention Center</h3>
-        <p class="fs-5">
-          The Calgary Telus Convention Center is located in the heart of the
-          city, surrounded by a variety of other hotels ranging from luxury to
-          budget options. This proximity ensures that conference attendees have
-          a range of accommodation choices within walking distance.
-        </p>
-        <div
-          class="d-flex flex-sm-row gap-2 flex-column justify-content-center justify-content-sm-start"
-        >
-          <a href="/venue/telus-convention-center" class="btn btn-primary"
-            >Learn More</a
-          >
+<section class="container-fluid d-flex flex-column gap-4 bg-white">
+  <div class="page-section container px-3 py-5 d-flex flex-column gap-4">
+    <h2 class="section-title fs-2 text-center">Previous IEEE Smart World Congress</h2>
+    <div class="row pb-3 g-4">
+      <div class="col-md-4 mb-3 mb-sm-0">
+        <div class="archive-card">
+          <div class="archive-year h5 text-primary">2025</div>
+          <h3 class="fw-bold text-dark my-3">Calgary</h3>
+          <p class="archive-date text-muted mb-4">August 18 - 22, 2025</p>
+          <a href="https://ieee-swc-2025.github.io/" class="btn btn-outline-primary rounded-pill px-4">View Archive</a>
         </div>
       </div>
-      <div
-        class="col-sm-6 py-2 d-flex justify-content-center align-items-center"
-        style="overflow: hidden"
-      >
-        <img
-          src="/assets/images/telus-convention-center.jpg"
-          class="w-100 h-100 object-fit-cover"
-        />
+      <div class="col-md-4">
+        <div class="archive-card">
+          <div class="archive-year h5 text-primary">2024</div>
+          <h3 class="fw-bold text-dark my-3">Fiji</h3>
+          <p class="archive-date text-muted mb-4">December 2 - 7, 2024</p>
+          <a href="https://www.ieee-smart-world.org/2024/" class="btn btn-outline-primary rounded-pill px-4">View Archive</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 mb-sm-0">
+        <div class="archive-card">
+          <div class="archive-year h5 text-primary">2023</div>
+          <h3 class="fw-bold text-dark my-3">Portsmouth</h3>
+          <p class="archive-date text-muted mb-4">August 28 - 31, 2023</p>
+          <a href="https://ieee-smart-world-congress.org/" class="btn btn-outline-primary rounded-pill px-4">View Archive</a>
+        </div>
       </div>
     </div>
-    <div class="row g-3">
-      <div
-        class="order-sm-1 order-2 col-sm-6 py-2 d-flex justify-content-center align-items-end"
-        style="overflow: hidden"
-      >
-        <img
-          src="/assets/images/sri-gowda-pdIe9hAcaP4-unsplash.jpg"
-          class="w-100 h-100 object-fit-cover"
-        />
-      </div>
-      <div
-        class="order-1 order-sm-2 col-sm-6 d-flex flex-column gap-3 flex-sm-column justify-content-center text-center text-sm-start"
-      >
-        <h3 class="">Explore Stunning Calgary and Its Scenic Surroundings</h3>
-        <p class="fs-5">
-          Calgary, Alberta, Canada, is a vibrant city nestled in the foothills
-          of the Canadian Rockies, known for its dynamic mix of urban
-          sophistication and outdoor adventure. As Alberta's largest city and a
-          key economic hub, Calgary boasts a thriving energy industry, a growing
-          tech sector, and a strong entrepreneurial spirit. The city is famous
-          for the annual Calgary Stampede, a celebration of its western
-          heritage, and offers stunning natural beauty, with easy access to the
-          nearby Banff and Jasper national parks.
+  </div>
+</section>
+
+<section class="container-fluid py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Venue & Location</h2>
+    </div>
+    
+    <div class="row align-items-center g-5 mb-5">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <h3 class="fw-bold mb-3">Explore Stunning Rende/Calabria</h3>
+        <p class="text-secondary lead">
+            The conference will be held in Rende, Calabria. Known for its rich history 
+             and the University of Calabria, it offers a perfect blend of academic 
+             excellence and Italian culture.
         </p>
-        <div
-          class="d-flex flex-sm-row gap-2 flex-column justify-content-center justify-content-sm-start"
-        >
-          <a href="/venue/calgary" class="btn btn-primary">Learn More</a>
+        <a href="#" class="btn btn-primary rounded-pill mt-3 px-4">View Venue Details</a>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2">
+        <div class="rounded-4 overflow-hidden shadow-lg">
+             <img src="/assets/images/ahmed-zalabany-yTElJrzPHZo-unsplash.jpg" class="img-fluid w-100" style="object-fit:cover; height: 350px;">
         </div>
       </div>
     </div>
