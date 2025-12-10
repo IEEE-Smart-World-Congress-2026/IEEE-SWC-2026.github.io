@@ -1,217 +1,153 @@
 ---
 layout: default
-title: IEEE ATC 2025
+title: IEEE ATC 2026
 sponsors:
-  - image: /assets/images/ieee mb black png.png
-  - image: /assets/images/cis-logo.png
-  - image: /assets/images/IEEE-CS_LogoTM-orange.png
-  - image: /assets/images/tcsc_ieee.png
-  - image: /assets/images/IEEE_HI_TC.jpg
-  - image: /assets/images/ieee_cpss.png
+- image: /assets/images/ieee mb black png.png
+- image: /assets/images_26/sponsor/IEEE_Italy_logo_small.png
+- image: /assets/images_26/sponsor/cis.png
+- image: /assets/images_26/sponsor/smc.png
+- image: /assets/images_26/sponsor/unical-2.png
+- image: /assets/images_26/sponsor/dimes.svg
 ---
 
 <!-- Hero Section -->
-<section
-  class="jumbotron text-center"
-  style="
+<section class="jumbotron text-center" style="
     background-image: url('/assets/images/kelly-hofer-knzWhQ5plcg-unsplash.jpg');
     background-size: cover;
     background-position: center 25%;
     height: 60vh;
     position: relative;
     color: white;
-  "
->
+  ">
   <div class="hero-section">
-    <div
-      class="page-section container px-3 pt-5 d-flex flex-column align-items-center gap-3"
-    >
+    <div class="page-section container px-3 pt-5 d-flex flex-column align-items-center gap-3">
       <h1 class="display-5 fw-bolder mt-5">
-        The 2025 IEEE International Conference on Autonomous and Trusted
-        Computing (Hybrid)
+        The 2026 IEEE International Conference on Autonomous and Trusted
+        Computing
       </h1>
       <div>
-        <h3>Calgary, Alberta, Canada</h3>
-        <h3 class="">August 18 - 22, 2025</h3>
+        <h3>Rende, Italy</h3>
+        <h3 class="">{{site.data.swc_data.dates.conferenceDates}}</h3>
       </div>
       <div>
-        <a class="btn btn-primary" href="#submission"
-          >Submit Paper to ATC 2025</a
-        >
+        <a class="btn btn-primary" href="#submission">Submit Paper to ATC 2026</a>
       </div>
     </div>
   </div>
 </section>
 
-<section
-  class="page-section container-fluid px-3 pt-5 pb-5 mt-2 d-flex flex-column gap-2"
->
+<section class="page-section container-fluid px-3 pt-5 pb-5 mt-2 d-flex flex-column gap-2">
+  <div>
+    <div class="alert alert-info" role="alert">
+      Early-bird registration starts from <b>{{site.data.swc_data.dates.earlyBird}}</b>.
+      <!-- <a href="/registration/" class="alert-link">Register Now</a> -->
+    </div>
+  </div>
   <div class="row g-5">
     <div class="col-sm-4 d-flex flex-column gap-4">
-      <div class="card bg-light-subtle">
-        <div
-          class="card-body d-flex flex-column justify-content-between align-items-center"
-        >
-          <h4 class="fs-5 fw-bold">Important Dates</h4>
-          <hr class="w-100" />
-          <h5 class="fs-6 fw-bold text-center">Paper Submission Deadline</h5>
-          <h6 class="text-decoration-line-through">April 14, 2025</h6>
-          <h6 class="text-decoration-line-through">
-            {{site.data.swc_data.dates.paperSubmission}}
-          </h6>
-          <hr class="w-100" />
-          <h5 class="fs-6 fw-bold text-center">Authors Notification</h5>
-          <h6 class="text-decoration-line-through">May 31, 2025</h6>
-          <hr class="w-100" />
-          <h5 class="fs-6 fw-bold text-center">Camera-ready Submission</h5>
-          <h6 class="text-decoration-line-through">June 30, 2025</h6>
-          <hr class="w-100" />
-          <h5 class="fs-6 fw-bold text-center">Registration</h5>
-          <h6 class="text-decoration-line-through">June 30, 2025</h6>
-          <hr class="w-100" />
-          <h5 class="fs-6 fw-bold text-center">Conference Dates</h5>
-          <h6 class="text-decoration-line-through">August 18 - 22, 2025</h6>
+      <div class="card bg-light-subtle shadow-sm">
+        <div class="card-body p-3">
+          <h4 class="fs-5 fw-bold mb-3">Important Dates</h4>
+          <div class="d-flex flex-column gap-2" style="font-size: 0.8rem;">
+            <div class="d-flex justify-content-between align-items-start border-bottom pb-2">
+              <span class="fw-bold text-danger" style="font-size: 0.75rem;">Full Paper Submission:</span>
+              <span class="text-danger fw-semibold"
+                style="font-size: 0.75rem;">{{site.data.swc_data.dates.paperSubmission}}</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-start border-bottom pb-2">
+              <span class="fw-semibold text-dark" style="font-size: 0.75rem;">Authors Notification:</span>
+              <span class="text-muted text-end"
+                style="font-size: 0.75rem;">{{site.data.swc_data.dates.authorsNotification}}</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-start border-bottom pb-2">
+              <span class="fw-semibold text-dark" style="font-size: 0.75rem;">Camera-ready:</span>
+              <span class="text-muted text-end"
+                style="font-size: 0.75rem;">{{site.data.swc_data.dates.cameraReadyDue}}</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-start pt-1">
+              <span class="fw-bold text-success" style="font-size: 0.75rem;">Conference:</span>
+              <span class="text-success fw-semibold"
+                style="font-size: 0.75rem;">{{site.data.swc_data.dates.conferenceDates}}</span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card bg-light-subtle">
-        <div
-          class="card-body d-flex flex-column justify-content-between align-items-center"
-        >
-          <h4 class="fs-5 fw-bold">Organizing Committee</h4>
-          <hr class="w-100" />
-          <div class="d-flex gap-1 flex-column w-100">
-            <h5 class="fs-6 fw-bold">Honorary Chairs</h5>
-            <div class="d-flex flex-column">
-              <h5 class="fs-6">
-                Xinbo Gao <br />
-                Chongqing University of Posts and Telecommunication, China
-              </h5>
+      <div class="card bg-light-subtle shadow-sm">
+        <div class="card-body p-3">
+          <h4 class="fs-5 fw-bold mb-3">Organizing Committee</h4>
+          <div class="d-flex flex-column gap-2" style="font-size: 0.75rem;">
+            <div>
+              <h6 class="fw-bold text-dark mb-1" style="font-size: 0.8rem;">General Chairs</h6>
+              <div class="ms-2 d-flex flex-column gap-1">
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Giuseppe D'Aniello</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">University of Salerno, Italy</div>
+                </div>
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">David Camacho</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">Technical University of Madrid, Spain</div>
+                </div>
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Francesco Flammini</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">SUPSI, Switzerland and University of Florence, Italy</div>
+                </div>
+              </div>
             </div>
-          </div>
-          <hr class="w-100" />
-          <div class="d-flex gap-1 flex-column w-100">
-            <h5 class="fs-6 fw-bold">General Chairs</h5>
-            <div class="d-flex flex-column">
-              <h5 class="fs-6">
-                Lyudmila S Mihaylova <br />
-                University of Sheffield, UK
-              </h5>
-              <h5 class="fs-6">
-                Zhunga Liu <br />
-                Northwestern Polytechnical University, China
-              </h5>
-              <h5 class="fs-6">
-                Hao Zhu <br />
-                Chongqing University of Posts and Telecommunication, China
-              </h5>
+            <div class="border-top pt-2">
+              <h6 class="fw-bold text-dark mb-1" style="font-size: 0.8rem;">Technical Program Chairs</h6>
+              <div class="ms-2 d-flex flex-column gap-1">
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Valentina Donzella</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">Queen Mary University of London, UK</div>
+                </div>
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Lidia Fotia</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">University of Salerno, Italy</div>
+                </div>
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Dirk Söffker</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">University of Duisburg-Essen, Germany</div>
+                </div>
+              </div>
             </div>
-          </div>
-          <hr class="w-100" />
-          <div class="d-flex gap-1 flex-column w-100">
-            <h5 class="fs-6 fw-bold">Program Chairs</h5>
-            <div class="d-flex flex-column">
-              <h5 class="fs-6">
-                Tarik Taleb <br />
-                Ruhr University Bochum, Germany
-              </h5>
-              <h5 class="fs-6">
-                Zuowei Zhang <br />
-                Northwestern Polytechnical University, China <br />
-                <a href="mailto:zhangzuowei@nwpu.edu.cn"
-                  >zhangzuowei@nwpu.edu.cn</a
-                >
-              </h5>
+            <div class="border-top pt-2">
+              <h6 class="fw-bold text-dark mb-1" style="font-size: 0.8rem;">Workshop/Special Sessions</h6>
+              <div class="ms-2 d-flex flex-column gap-1">
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Tzung-Pei Hong</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">National University of Kaohsiung, Taiwan</div>
+                </div>
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Paolo Scarabaggio</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">Polytechnic University of Bari, Italy </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <hr class="w-100" />
-          <div class="d-flex gap-1 flex-column w-100">
-            <h5 class="fs-6 fw-bold">Program Vice Chairs</h5>
-            <div class="d-flex flex-column">
-              <h5 class="fs-6">
-                Yulong Huang <br />
-                Harbin Engineering University, China
-              </h5>
-              <h5 class="fs-6">
-                Hongzhou Yang <br />
-                University of Calgary, Canada
-              </h5>
-              <h5 class="fs-6">
-                Huaqing Li <br />
-                Southwest University, China
-              </h5>
-              <h5 class="fs-6">
-                Jiawei Chen <br />
-                Chongqing University, China
-              </h5>
+            <div class="border-top pt-2">
+              <h6 class="fw-bold text-dark mb-1" style="font-size: 0.8rem;">Publicity Chairs</h6>
+              <div class="ms-2 d-flex flex-column gap-1">
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Gianluca Aloi</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">University of Calabria, Italy</div>
+                </div>
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Lyudmila S Mihaylova</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">University of Sheffield, UK</div>
+                </div>
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Hao Zhu</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">Chongqing University of Posts and Telecommunication, China</div>
+                </div>
+              </div>
             </div>
-          </div>
-          <hr class="w-100" />
-          <div class="d-flex gap-1 flex-column w-100">
-            <h5 class="fs-6 fw-bold">Publicity Chairs</h5>
-            <div class="d-flex flex-column">
-              <h5 class="fs-6">
-                Zhiqin Zh <br />Chongqing University of Posts and
-                Telecommunication, China
-              </h5>
-              <h5 class="fs-6">
-                Guanqiu Qi <br />
-                Buffalo State University, USA
-              </h5>
-              <h5 class="fs-6">
-                Dan Song <br />
-                National University of Defense Technology, China
-              </h5>
-              <h5 class="fs-6">
-                Zhen Tian <br />
-                Guangdong Laboratory of Artificial Intelligence and Digital
-                Economy, China
-              </h5>
-              <h5 class="fs-6">
-                Sin-Chi Kuok <br />
-                University of Macau, Macao, China
-              </h5>
-            </div>
-          </div>
-          <hr class="w-100" />
-          <div class="d-flex gap-1 flex-column w-100">
-            <h5 class="fs-6 fw-bold">Workshop Chairs</h5>
-            <div class="d-flex flex-column">
-              <h5 class="fs-6">
-                Lipeng Pan <br />
-                Northwest A&F University, China
-              </h5>
-              <h5 class="fs-6">
-                Tianyu Wang <br />
-                Dalian University of Technology, China
-              </h5>
-            </div>
-          </div>
-          <hr class="w-100" />
-          <div class="d-flex gap-1 flex-column w-100">
-            <h5 class="fs-6 fw-bold">Web Chairs</h5>
-            <div class="d-flex flex-column">
-              <h5 class="fs-6">
-                Ke Zou <br />
-                National University of Singapore, Singapore
-              </h5>
-            </div>
-          </div>
-          <hr class="w-100" />
-          <div class="d-flex gap-1 flex-column w-100">
-            <h5 class="fs-6 fw-bold">Steering Committee</h5>
-            <div class="d-flex flex-column">
-              <h5 class="fs-6">
-                Victor C. M. Leung <br />
-                University of British Columbia, Canada
-              </h5>
-              <h5 class="fs-6">
-                Sonia Heemstra de Groot <br />
-                Eindhoven University of Technology, Netherlands
-              </h5>
-              <h5 class="fs-6">
-                Jun Zhao <br />
-                Dalian University of Technology, China
-              </h5>
+            <div class="border-top pt-2">
+              <h6 class="fw-bold text-dark mb-1" style="font-size: 0.8rem;">Web Chair</h6>
+              <div class="ms-2">
+                <div>
+                  <div class="fw-bold" style="font-size: 0.85rem;">Vincenzo Barbuto</div>
+                  <div class="text-muted" style="font-size: 0.7rem;">University of Calabria, Italy</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -219,181 +155,229 @@ sponsors:
     </div>
     <div class="col-sm-8 d-flex flex-column gap-4">
       <div>
-        <h2 class="fs-2 mb-2">
-          Join us at the 2025 IEEE International Conference on Autonomous and
-          Trusted Computing
-        </h2>
         <p class="fs-5">
-          With the rapid development of intelligent devices and information
-          networks, innovations in perception and computation have become key
-          drivers of social progress and technological innovation. In this era
-          driven by intelligent technologies, the safety, reliability, and
-          trustworthiness of automation systems are crucial for building a
-          smarter, more efficient, and safer digital world. Autonomous and
-          trustworthy computing technologies not only reshape the way we
-          interact with machines, greatly enhancing the quality of daily life
-          and work efficiency, but also drive the overall transformation and
-          progress of society.
+          The rapid expansion of intelligent technologies, large-scale AI models, and interconnected
+          cyber-physical-social systems is transforming the way people,
+          devices, and environments interact. As autonomy becomes deeply embedded in critical infrastructure,
+          transportation, industry, healthcare, and smart cities,
+          ensuring that these systems remain reliable, secure, transparent, and resilient becomes a central challenge.
           <br /><br />
-          We welcome high-quality papers that describe original and unpublished
-          research advancing the state of the art in autonomous and trusted
-          computing. Topics for submissions include but are not limited to the
-          following:
+          The 23rd IEEE International Conference on Autonomous and Trusted Computing (ATC 2026) continues its tradition
+          as a leading international forum on autonomous and
+          trustworthy systems. With ongoing advances in sensing technologies, intelligent computing, AI-driven
+          decision-making, and human_machine cooperation, ATC 2026 will
+          provide a premier venue to present and discuss progress in autonomous computing, trustworthy AI, dependable
+          systems, and cyber_physical-social environments.
+          <br /><br />
+          ATC 2026 will feature a highly selective technical program, complemented by workshops, panels, demonstrations,
+          and keynote speeches. We welcome high-quality submissions
+          reporting original and unpublished research that advances the state of the art in autonomous and trusted
+          computing and identifies emerging challenges and future research
+          directions.
         </p>
       </div>
-      <div class="row">
-        <div class="col-12 mb-3 mb-sm-0 d-flex flex-column gap-4">
-          <h2 class="fs-2">IEEE ATC 2025 Tracks and Topics</h2>
-          <div class="row pb-3 g-4">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h5 class="fs-5">
-                    Track 1: Intelligent and connected vehicles
-                  </h5>
-                  <ul>
-                    <li>Environment perception and modeling</li>
-                    <li>Localization and map building</li>
-                    <li>Path planning and decision-making</li>
-                    <li>Motion control</li>
-                    <li>Smart sensors</li>
-                    <li>Signal processing, sensor fusion, etc.</li>
-                    <li>AI for vehicles</li>
-                    <li>V2X, smart communication, etc.</li>
-                  </ul>
-                </div>
+      <div>
+    <div>
+        <div class="d-flex align-items-baseline gap-3 mb-5 border-bottom pb-3">
+          <h3 class="fw-bold m-0 text-dark">IEEE ATC 2026 Tracks and Topics</h3>
+          <!-- <span class="text-muted small text-uppercase fw-bold ls-1 d-none d-sm-block">Call for Papers</span> -->
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-6">
+            <div class="track-card">
+              <div class="track-header">
+                <h4 class="track-title">Track 1: Trustworthy Artificial Intelligence</h4>
+              </div>
+              <div class="track-body">
+                <ul class="track-list-clean">
+                  <li>AI safety, ethics, fairness, and responsible AI</li>
+                  <li>Explainability, robustness, and security of AI</li>
+                  <li>Privacy-preserving learning and machine unlearning</li>
+                  <li>Verification and governance of AI systems</li>
+                  <li>Multimodal and cross-modal learning</li>
+                  <li>Signal processing, sensor fusion</li>
+                  <li>Edge AI and distributed intelligence</li>
+                  <li>Applications of AI, LLMs and VLMs in domains such as healthcare, education, and smart cities</li>
+                </ul>
               </div>
             </div>
-            <div class="col-sm-6 mb-3 mb-sm-0">
-              <div class="card bg-light-subtle h-100">
-                <div class="card-body">
-                  <h5 class="fs-5">Track 2: Artificial intelligence and LLM</h5>
-                  <ul>
-                    <li>Pattern recognition and image processing</li>
-                    <li>Efficient fine-tuning and adaptation methods</li>
-                    <li>Multimodal AI and cross-modal learning</li>
-                    <li>Knowledge representation and reasoning</li>
-                    <li>LLM and its applications</li>
-                    <li>AI ethics, safety, and interpretability</li>
-                    <li>
-                      AI for healthcare, AI for education, AI for finance, etc.
-                    </li>
-                    <li>Edge AI and distributed intelligence</li>
-                  </ul>
-                </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="track-card">
+              <div class="track-header">
+                <h4 class="track-title">Track 2: Data Fusion and Situational Awareness</h4>
+              </div>
+              <div class="track-body">
+                <ul class="track-list-clean">
+                  <li>Multi-sensor fusion</li>
+                  <li>Learning-based perception and data association</li>
+                  <li>Real-time and edge-based processing</li>
+                  <li>Uncertainty modeling and reasoning</li>
+                  <li>Context awareness and situational awareness </li>
+                  <li>Environment perception and modelling</li>
+                  <li>Self-aware computing</li>
+                  <li>Resilient and robust sensing</li>
+                </ul>
               </div>
             </div>
-            <div class="col-sm-6 mb-3 mb-sm-0">
-              <div class="card bg-light-subtle h-100">
-                <div class="card-body">
-                  <h5 class="fs-5">
-                    Track 3: Smart data fusion and target tracking
-                  </h5>
-                  <ul>
-                    <li>Multi-sensor fusion techniques and architectures</li>
-                    <li>Bayesian filtering and probabilistic inference</li>
-                    <li>Deep learning for data association and tracking</li>
-                    <li>Distributed and cooperative tracking algorithms</li>
-                    <li>Robust state estimation under uncertainty</li>
-                    <li>Multi-object tracking and behavior prediction</li>
-                    <li>Sensor calibration and synchronization</li>
-                    <li>
-                      Real-time processing and edge computing for tracking
-                    </li>
-                  </ul>
-                </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="track-card">
+              <div class="track-header">
+                <h4 class="track-title">Track 3: Intelligent and Autonomous Systems</h4>
+              </div>
+              <div class="track-body">
+                <ul class="track-list-clean">
+                  <li>Industrial and cyber-physical-social systems modeling</li>
+                  <li>Adaptive and robust control techniques</li>
+                  <li>AI-driven control and reinforcement learning</li>
+                  <li>Intelligent control for autonomous systems</li>
+                  <li>Trustworthy recommender systems</li>
+                  <li>Brain-Machine interaction</li>
+                  <li>Human-AI and human-autonomy teaming</li>
+                </ul>
               </div>
             </div>
-            <div class="col-sm-6 mb-3 mb-sm-0">
-              <div class="card bg-light-subtle h-100">
-                <div class="card-body">
-                  <h5 class="fs-5">Track 4: Intelligent control and system</h5>
-                  <ul>
-                    <li>Industrial system modeling and optimization</li>
-                    <li>Adaptive and robust control techniques</li>
-                    <li>
-                      Decentralized and resilient control for DC microgrids
-                    </li>
-                    <li>AI-driven control and reinforcement learning</li>
-                    <li>Networked and distributed control systems</li>
-                    <li>
-                      Fault detection, diagnosis, and self-healing systems
-                    </li>
-                    <li>
-                      Intelligent control for robotics and autonomous systems
-                    </li>
-                    <li>Cyber-physical systems and digital twins</li>
-                  </ul>
-                </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="track-card">
+              <div class="track-header">
+                <h4 class="track-title">Track 4: Safe Assisted and Automated Driving</h4>
               </div>
+              <div class="track-body">
+                <ul class="track-list-clean">
+                  <li>Novel sensing and AI for automated driving</li>
+                  <li>Smart sensors, signal processing, and fusion</li>
+                  <li>AI safety, trust, and uncertainty propagation</li>
+                  <li>Path planning and motion control</li>
+                  <li>Hybrid intelligence for automated vehicles</li>
+                  <li>Cooperative autonomy</li>
+                  <li>UAV, UGV, USV, and multi-domain autonomous mobility systems</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+    </div>
+</section>
+
+<section class="container-fluid d-flex flex-column gap-4">
+  <div class="page-section w-100 px-3 py-5 d-flex flex-column gap-4">
+    <h2 class="section-title fs-2 text-center fw-bold mb-4">Types of Submissions</h2>
+    <p class="fs-5 lh-lg">
+      The conference welcomes high-quality, original research contributions that advance the scientific and technological foundations of the smart world. Authors are invited to submit their work in one of the following categories:
+    </p>
+    
+    <div class="row g-4 mt-2">
+      <div class="col-md-6">
+        <div class="card h-100 border-0 shadow-sm topic-card">
+          <div class="card-body p-4">
+            <h4 class="fw-bold  mb-3">Regular Papers <span class="text-muted fs-6">(4-8 pages)</span></h4>
+            <p class="mb-0" style="font-size: 0.95rem; line-height: 1.6;">
+              Complete research studies containing significant findings, rigorous methodology, and comprehensive experimental or theoretical results.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card h-100 border-0 shadow-sm topic-card">
+          <div class="card-body p-4">
+            <h4 class="fw-bold  mb-3">Workshop/Special Session Papers <span class="text-muted fs-6">(2-6 pages)</span></h4>
+            <p class="mb-0" style="font-size: 0.95rem; line-height: 1.6;">
+              Concise contributions reporting promising early results, innovative ideas, or ongoing work that is expected to stimulate discussion and further development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="alert alert-info mt-4" role="alert">
+      <p class="mb-0 fs-5">
+        <strong>Important:</strong> A submission can have at most 2 additional pages with the pages overlength charge, if accepted..
+      </p>
+    </div>
+
+    <hr style="border-top: 2px solid #dee2e6;" />
+
+    <div class="mt-4">
+      <h3 class="section-title fw-bold mb-4 text-sm-start">Publication and Indexing</h3>
+      <p class="fs-5 lh-lg mb-4">
+        All accepted and presented papers (regular, workshop/special session) will be:
+      </p>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="d-flex align-items-start">
+            <div class="me-3">
+              <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 2.5rem; height: 2.5rem; font-size: 1.2rem; font-weight: bold;">✓</div>
+            </div>
+            <div>
+              <h5 class="fw-semibold mb-1">IEEE Conference Proceedings</h5>
+              <p class="text-muted mb-0" style="font-size: 0.9rem;">Included in the official conference proceedings</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex align-items-start">
+            <div class="me-3">
+              <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 2.5rem; height: 2.5rem; font-size: 1.2rem; font-weight: bold;">✓</div>
+            </div>
+            <div>
+              <h5 class="fw-semibold mb-1">IEEE Xplore</h5>
+              <p class="text-muted mb-0" style="font-size: 0.9rem;">Submitted for publication in IEEE Xplore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex align-items-start">
+            <div class="me-3">
+              <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 2.5rem; height: 2.5rem; font-size: 1.2rem; font-weight: bold;">✓</div>
+            </div>
+            <div>
+              <h5 class="fw-semibold mb-1">Major Databases</h5>
+              <p class="text-muted mb-0" style="font-size: 0.9rem;">Indexed in Elsevier, IET, and Scopus</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row" id="submission">
-        <div class="col-sm-12 d-flex flex-column gap-3 justify-content-around">
-          <h3 class="">Paper Submission</h3>
-          <p class="fs-5">
-            All papers need to be submitted electronically through the
-            conference submission website (EDAS) in PDF format at EDAS. Each
-            paper is limited to 8 pages (or 10 pages with over-length charge)
-            for a regular full paper, 6 pages (or 8 pages with over-length
-            charge) for a full paper including figures and references using the
-            IEEE Computer Society Proceedings manuscripts style.
-          </p>
-          <h3 class="">Paper Publication</h3>
-          <p class="fs-5">
-            Papers accepted by IEEE ATC 2025 conference will be published by the
-            IEEE Computer Society Press. At least one author of each accepted
-            paper is required to register and present their work at the
-            conference; otherwise, the paper will not be included in the
-            proceedings. All accepted papers will be submitted to IEEE Xplore
-            and EI. Distinguished papers presented at the conference, after
-            further revision, will be invited for submission to a special issue
-          </p>
-          <div
-            class="d-flex flex-column gap-2 justify-content-start align-items-start"
-          >
-            <a
-              class="btn btn-primary"
-              target="_blank"
-              href="https://edas.info/index.php?c=33649"
-              >Submit Paper to ATC 2025</a
-            >
-          </div>
-          <h3>Final Paper Instructions</h3>
-          <p class="fw-bold fs-5">
-            <span style="color: red">Important</span>: Final paper and copyright
-            submissions must be made through IEEE CPS (Conference Publishing
-            Services), <span style="color: red">NOT EDAS</span>!
-          </p>
-          <p class="fs-5">
-            Below is the link to the SWC 2025 Author's Final Paper Formatting
-            and Submission Instructions webpage. It is applicable to all
-            co-located conferences (UIC, ATC, DigitalTwin, Metaverse, ScalCom).
-            This will allow you to:
-          </p>
-          <ul class="fs-5">
-            <li>Verify/convert your paper using PDF eXpress</li>
-            <li>Submit your paper's copyright</li>
-            <li>Submit your final paper</li>
+      <div class="alert alert-warning mt-4" role="alert">
+        <p class="mb-0 fs-5">
+          <strong>Note:</strong> For a paper to remain eligible for publication, it must be presented in person (unless otherwise specified). At least one author must register for the conference and deliver the presentation.
+        </p>
+      </div>
+    </div>
+
+    <hr style="border-top: 2px solid #dee2e6;" />
+
+    <div class="mt-4">
+      <h3 class="section-title fw-bold mb-4 text-sm-start">Special Issue and Extended Versions</h3>
+      <p class="fs-5 lh-lg mb-4">
+        A Special Issue in a high-impact, ISI-indexed journal will be organized in conjunction with the conference. Authors of selected outstanding papers will 
+        receive an invitation to submit an extended version of their work.
+      </p>
+      <!-- <p class="fs-5 lh-lg mb-4">
+        Extended submissions must:
+      </p> -->
+      <!-- <div class="card bg-light-subtle border-0 shadow-sm">
+        <div class="card-body p-4">
+          <ul class="fs-5 mb-0" style="line-height: 2;">
+            <li>Contain at least <strong>30% new material</strong></li>
+            <li>Provide deeper insights, expanded experiments, or additional contributions beyond the conference version</li>
+            <li>Undergo a full journal peer-review process</li>
           </ul>
-          <div
-            class="d-flex flex-column gap-2 justify-content-start align-items-start"
-          >
-            <div class="d-flex flex-row gap-2">
-              <a
-                class="btn btn-primary"
-                target="_blank"
-                href="https://ieeecps.org/cps/v2/auth/login?ak=1&pid=2FBloH8EZnpjmoosiBNJHK"
-                >Submit Final Paper to ATC 2025</a
-              >
-              <a class="btn btn-light" href="/final-paper-instructions/"
-                >View Final Submission Instructions</a
-              >
-            </div>
-          </div>
         </div>
+      </div> -->
+      <div class="alert alert-info mt-4" role="alert">
+        <p class="mb-0 fs-5">
+          Information about the journal partner and submission deadlines will be announced soon.
+        </p>
       </div>
     </div>
   </div>
