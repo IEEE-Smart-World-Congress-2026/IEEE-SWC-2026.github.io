@@ -11,9 +11,18 @@
   --bg-light-gray: #f8f9fa;
 }
 
+.bg-primary-gradient {
+  background: var(--primary-gradient) !important;
+  color: white !important;
+}
+
 h1, h2, h3, h4, h5 {
   font-weight: 700;
   letter-spacing: -0.02em;
+}
+
+.text-align-justify {
+  text-align: justify !important;
 }
 
 .section-title {
@@ -175,6 +184,42 @@ h1, h2, h3, h4, h5 {
 
 .topic-card:hover .border-top {
   border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* --- Additions for Topic Cards with Icons --- */
+.topic-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color); /* Uses your existing variable */
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Ensure icon turns white on hover just like the text */
+.topic-card:hover .topic-icon {
+  color: #fff !important;
+}
+
+/* Add this to your style file to support the horizontal layout */
+.topic-card-horizontal {
+  display: flex;
+  align-items: center; /* Vertically centers content */
+  justify-content: start; /* Aligns content to the left */
+  text-align: left; /* Ensures text reads naturally */
+  padding: 1.5rem; /* Slightly tighter padding than the big boxes */
+  gap: 1.5rem; /* Space between icon and text */
+}
+
+/* Ensure the icon stays colored until hover */
+.topic-card-horizontal i {
+  font-size: 2rem;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+  flex-shrink: 0; /* Prevents icon from squishing on small screens */
+}
+
+/* On hover, icon turns white (matches your existing logic) */
+.topic-card:hover i {
+  color: #ffffff !important;
 }
 
 /* --- Key Dates Timeline (Existing Classes) --- */
@@ -540,7 +585,7 @@ h1, h2, h3, h4, h5 {
   padding-left: 1rem;
   margin-bottom: 0.5rem;
   color: #6c757d; /* Lighter text for less visual weight */
-  font-size: 0.85rem; /* Slightly smaller for density control */
+  font-size: 0.90rem; /* Slightly smaller for density control */
   line-height: 1.4;
   break-inside: avoid; /* Prevents item splitting across columns */
 }
@@ -555,5 +600,43 @@ h1, h2, h3, h4, h5 {
   top: 0;
 }
 
+/* --- High Contrast Sponsor Tiles --- */
+.sponsor-tile {
+  background-color: var(--bg-light-gray); /* Change: Gray bg to pop on white page */
+  border: 2px solid transparent;          /* Change: Invisible border prevents jumping on hover */
+  border-radius: var(--card-border-radius);
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
 
-  
+.sponsor-tile img {
+  max-width: 100%;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  transform: translateZ(0);
+}
+
+/* --- Hover Effects --- */
+.sponsor-tile:hover {
+  background-color: #ffffff;
+  border-color: var(--bg-light-gray);
+  box-shadow: 0 10px 30px rgba(13, 110, 253, 0.15);
+  transform: translateY(-5px);
+}
+
+.sponsor-tile:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.1);
+}

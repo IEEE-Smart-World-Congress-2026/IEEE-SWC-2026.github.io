@@ -1,22 +1,30 @@
-<div class="container-fluid d-flex flex-column gap-4">
-  <div class="page-section w-100 py-5 d-flex flex-column gap-4">
+<div class="container-fluid d-flex flex-column gap-4 bg-light">
+  <div class="page-section container px-3 py-5 d-flex flex-column gap-4">
+    
     <h2 class="section-title fs-2 text-center">IEEE SWC 2026 Colocated Conferences</h2>
+    
     <div class="row pb-3 g-4 justify-content-center">
       {% for conference in site.data.conferences %}
-      <div class="col-sm-4">
-        <div class="card bg-light-subtle h-100 w-100">
-          <div
-            class="card-body d-flex flex-column justify-content-between gap-3 h-100"
-          >
-            <h3 class="text-center">{{ conference.shortTitle }}</h3>
-            <h5 class="fs-6 text-center">{{ conference.shortDescription}}</h5>
-            <a href="{{ conference.url }}" class="btn btn-primary w-100"
-              >View</a
-            >
+      <div class="col-md-6 col-lg-4">
+        
+        <div class="archive-card h-100 shadow-sm text-center">
+          
+          <div class="w-100 mb-4">
+            <h3 class="fw-bold mb-3">{{ conference.shortTitle }}</h3>
+            
+            <div class="archive-date fs-6 text-muted lh-base">
+              {{ conference.shortDescription }}
+            </div>
           </div>
+          
+          <a href="{{ conference.url }}" class="btn btn-outline-primary rounded-pill px-4 fw-bold">
+            View Conference
+          </a>
+          
         </div>
       </div>
       {% endfor %}
     </div>
+
   </div>
 </div>
