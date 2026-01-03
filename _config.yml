@@ -14,3 +14,8 @@ github_username:  jekyll
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+# Assets
+sass:
+  sass_dir: _sass
+  style: compressed
