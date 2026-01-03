@@ -15,7 +15,7 @@ sponsors:
 <section
   class="jumbotron text-center"
   style="
-    background-image: url('/assets/images_26/imgs/ponte_bucci.jpg');
+    background-image: url('{{ /assets/images_26/imgs/ponte_bucci.jpg | relative_url }}');
     background-size: cover;
     background-position: center 65%;
     min-height: 60vh;
@@ -52,7 +52,7 @@ sponsors:
       <div>
         <p class="mb-0 fs-6">
           Early-bird registration starts from <b>{{site.data.swc_data.dates.earlyBird}}</b>.
-          <!-- <a href="/registration/" class="alert-link">Register Now</a> -->
+          <!-- <a href="{{ \'/registration/\' | relative_url }}" class="alert-link">Register Now</a> -->
         </p>
       </div>
     </div>
@@ -411,7 +411,7 @@ sponsors:
           href="https://ieeecps.org/cps/v2/auth/login?ak=1&pid=2FBloH8EZnpjmoosiBNJHK"
           >Submit Final Paper to SWC 2025</a
         >
-        <a class="btn btn-light" href="/final-paper-instructions/"
+        <a class="btn btn-light" href="{{ \'/final-paper-instructions/\' | relative_url }}"
           >View Final Submission Instructions</a
         >
       </div>

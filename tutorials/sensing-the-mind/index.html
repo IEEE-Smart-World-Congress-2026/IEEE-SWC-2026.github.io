@@ -12,7 +12,7 @@ sponsors:
 <section
   class="jumbotron text-center"
   style="
-    background-image: url('/assets/images/Sensing\ the\ Mind\ Tutorial.png');
+    background-image: url('{{ /assets/images/Sensing\ the\ Mind\ Tutorial.png | relative_url }}');
     background-size: cover;
     background-position: 50% 40%;
     min-height: 60vh;
@@ -141,7 +141,7 @@ sponsors:
       >
         <div class="text-center">
           <img
-            src="/assets/images/singh.jpg"
+            src="{{ \'/assets/images/singh.jpg\' | relative_url }}"
             alt="Prof. Dhananjay Singh"
             class="circle-img mb-3"
           />

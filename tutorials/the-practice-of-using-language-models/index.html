@@ -12,7 +12,7 @@ sponsors:
 <section
   class="jumbotron text-center"
   style="
-    background-image: url('/assets/images/pexels-googledeepmind-18069694.jpg');
+    background-image: url('{{ /assets/images/pexels-googledeepmind-18069694.jpg | relative_url }}');
     background-size: cover;
     background-position: 50% 40%;
     min-height: 60vh;
@@ -78,7 +78,7 @@ sponsors:
       >
         <div class="text-center">
           <img
-            src="/assets/images/jason_bernard.jpg"
+            src="{{ \'/assets/images/jason_bernard.jpg\' | relative_url }}"
             alt="Dr. Jason Bernard"
             class="circle-img mb-3"
           />

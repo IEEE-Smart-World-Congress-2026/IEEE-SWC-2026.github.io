@@ -13,7 +13,7 @@ sponsors:
 
 <!-- Hero Section -->
 <section class="jumbotron text-center" style="
-    background-image: url('/assets/images_26/imgs/u3.jpg');
+    background-image: url('{{ /assets/images_26/imgs/u3.jpg | relative_url }}');
     background-size: cover;
     background-position: center 35%;
     min-height: 60vh;
@@ -45,7 +45,7 @@ sponsors:
       <div>
         <p class="mb-0 fs-6">
           Early-bird registration starts from <b>{{site.data.swc_data.dates.earlyBird}}</b>.
-          <!-- <a href="/registration/" class="alert-link">Register Now</a> -->
+          <!-- <a href="{{ \'/registration/\' | relative_url }}" class="alert-link">Register Now</a> -->
         </p>
       </div>
     </div>

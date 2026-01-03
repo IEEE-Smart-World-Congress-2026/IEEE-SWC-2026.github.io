@@ -15,7 +15,7 @@ sponsors:
 <section
   class="jumbotron text-center"
   style="
-    background-image: url('/assets/images//product-school-nOvIa_x_tfo-unsplash.jpg');
+    background-image: url('{{ /assets/images//product-school-nOvIa_x_tfo-unsplash.jpg | relative_url }}');
     background-size: cover;
     background-position: center;
     min-height: 60vh;
@@ -375,7 +375,7 @@ sponsors:
           <h3>Industry Day Tickets</h3>
           <p>
             The
-            <a href="/program/industry-day/">Industry Day (August 19)</a> ticket
+            <a href="{{ \'/program/industry-day/\' | relative_url }}">Industry Day (August 19)</a> ticket
             is included in the registration. If you wish to participate in
             Industry Day only, the ticket is sold separately for
             <b>USD $100</b>.
@@ -394,7 +394,7 @@ sponsors:
         <h3>Banff Day Trip</h3>
         <p>
           Tickets for the
-          <a href="/travel/banff-group-trip/"
+          <a href="{{ \'/travel/banff-group-trip/\' | relative_url }}"
             >Banff group day trip (August 23)</a
           >
           can be purchased on the conference registration pages for
