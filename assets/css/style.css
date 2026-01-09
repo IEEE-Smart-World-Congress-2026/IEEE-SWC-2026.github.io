@@ -2,6 +2,24 @@
 
 /* Custom Styles */
 
+html {
+  font-size: 100%; /* Default ~16px */
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  html {
+    font-size: 93.75%; /* ~15px */
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  html {
+    font-size: 87.5%; /* ~14px */
+  }
+}
+
 html,
 body {
   overflow-x: hidden;
